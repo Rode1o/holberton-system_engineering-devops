@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -AXamp \n
+ls -AXamp 
