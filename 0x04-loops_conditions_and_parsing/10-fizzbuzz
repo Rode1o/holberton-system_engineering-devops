@@ -1,26 +1,4 @@
 #!/bin/bash
 
 # FizzBuzz, bash edition
-
-for i in {1..100}; do
-
-    echo -n "$i"
-    
-    if (( i % 3 == 0 )); then # or if (( i / 3 * 3 == i )); then
-        echo -ne "\\rFizz" # \r deletes the line
-        three="1" # bool, divisible by 3
-    fi
-    
-    if (( i % 5 == 0 )); then
-        if (( three )); then
-            echo -ne "Buzz" # add to Fizz
-        else
-            echo -ne "\\rBuzz" # delete the line
-        fi
-    fi
-    
-    echo # newline
-    
-    three=""
-
-done
+for i in {1..100};do((i%3))&&x=||x=Fizz;((i%5))||x+=Buzz;echo ${x:-$i};done
