@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Show over text's
+
+while true; do
+trap 'echo "I am invincible!!!"'
+echo "To infinity and beyond"
+sleep 2
+done
