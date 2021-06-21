@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# SHOW CURRENT PROCESS
+
+ps -aufx
