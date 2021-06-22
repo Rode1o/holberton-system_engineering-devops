@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Show PID
+
+PID_FILE=holbertonscript.pid
+echo $$ > $PID_FILE
+sudo mv $PID_FILE /var/run/
+
+while true; do
+echo "To infinity and beyond"
+trap "echo I hate the kill command" SIGTERM
+trap "echo Y U no love me?!" SIGINT
+done
