@@ -18,3 +18,4 @@ Welcome to the Holberton School's System Engineering Devops repository where I'l
 | **[0x03. Shell - Variables expansions](./0x03-shell_variables_expansions)**                      | *Init files, variables and expansions.*         |
 | **[0x04. Shell - Lloops, conditions and parsing](./0x04-loops_conditions_and_parsing)**          | *Loops, conditions and parsing.*                |
 | **[0x05. Shell - Processes and signals](./0x05-processes_and_signals)**                          | *Processes and signals.*                        |
+| **[0x06. Ruby - Regular expressions](./0x06-regular_expressions)**                               | *Regular expressions applied in Ruby.*          |
