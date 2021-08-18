@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Install nginx web server
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+echo "Holberton School" > index.html
+echo "Ceci n'est pas une page"
+sudo mv index.html /var/www/html
+sudo mv error404.html /var/www/html
+
+sudo sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://giphy.com/gifs/1wqqlaQ7IX3TXibXZE permanent;' /etc/nginx/sites-available/default
+sudo sed -i '/listen 80 default_server;/a error_page 404 /error404.html;' /etc/nginx/sites-available/default
+
+sudo service nginx restart
