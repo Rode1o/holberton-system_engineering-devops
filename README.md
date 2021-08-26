@@ -10,8 +10,8 @@ Welcome to the Holberton School's System Engineering Devops repository where I'l
 
 # Table of Contents
 
-| **Project**                                                                                      | **Description**                                 |
-|--------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| **Project**                                                                                     | **Description**                                 |
+|-------------------------------------------------------------------------------------------------|-------------------------------------------------|
 | **[0x00. Bash - Basics](./0x00-shell_basics)**                                                  | *Basics.*                                       |
 | **[0x01. Bash - Permissions](./0x01-shell_permissions)**                                        | *Permissions.*                                  |
 | **[0x02. Bash - Redirections](./0x02-shell_redirections)**                                      | *I/O Redirections and filters.*                 |
@@ -21,4 +21,11 @@ Welcome to the Holberton School's System Engineering Devops repository where I'l
 | **[0x06. Ruby - Regular expressions](./0x06-regular_expressions)**                              | *Regular expressions applied in Ruby.*          |
 | **[0x07. Bash - Networking basics](./0x07-networking_basics)**                                  | *Networking basics.*                            |
 | **[0x08. Bash - Networking basics 2](./0x08-networking_basics_2)**                              | *Networking basics 2.*                          |
+| **[0x09. WhiteBoarding - Web Infrastructure_Design](./0x09-web_infrastructure_design)**         | *Web infrastructure design.*                    |
+| **[0x0A. Puppet - Configuration Management](./0x0A-configuration_management)**                  | *Configuration management.*                     |
+| **[0x0B. Bash - SSH](./0x0B-ssh)**                                                              | *SSH.*                                          |
+| **[0x0C. Web server](./0x0C-web_server)**                                                       | *Web server.*                                   |
+| **[0x0D. Bash - Web stack debugging #0](./0x0D-web_stack_debugging_0)**                         | *Web stack debugging #0.*                       |
+| **[0x0E. Bash - Web stack debugging #1](./0x0E-web_stack_debugging_1)**                         | *Web stack debugging #1.*                       |
+| **[0x0F. Bash - Load Balancer](./0x0F-load_balancer)**                                          | *Load balancer.*                                |
 | **[Optional. Bash - Command Line For The Win](./command_line_for_the_win)**                     | *CMD Challenge.*                                |
